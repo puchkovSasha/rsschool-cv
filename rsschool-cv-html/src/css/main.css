@@ -1,0 +1,14 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
