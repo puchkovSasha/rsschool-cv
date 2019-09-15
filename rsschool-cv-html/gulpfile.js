@@ -10,16 +10,17 @@ gulp.task('sass', function(){
             browsers: ['last 8 versions'],
             cascade: false
         }))
-    .pipe(concatCss('new_main.css'))
-    .pipe(gulp.dest('src/css'))
+    .pipe(concatCss('main.css'))
+    .pipe(gulp.dest('src/css'));
 });
 
 gulp.task('js', function(){
-    return gulp.src('src/js/*.js')
-    .pipe(browserSync.reload({stream: true}))
+    return gulp.src('src/js/*.js');
+    
 });
 
 gulp.task('watch', function(){
 	 gulp.watch('src/sass/*.sass', gulp.parallel('sass'));
-     gulp.watch('src/js/*.js', gulp.parallel('js'));// Наблюдение з
+     gulp.watch('src/js/*.js', gulp.parallel('js'));
 });
+gulp.task('default', gulp.parallel('sass','watch'));
