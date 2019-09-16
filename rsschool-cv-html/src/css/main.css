@@ -32,7 +32,7 @@ h1 {
 .header-name__title {
   font-size: 20px;
   color: #585858;
-  font-weight: 400;
+  font-weight: 700;
   text-transform: uppercase;
   padding-top: 25px;
   margin-bottom: 10px;
@@ -51,4 +51,94 @@ h1 {
   height: 5px;
   border-radius: 5px;
   background-color: #435153;
+}
+
+.section-work__title {
+  font-size: 22px;
+  color: #2984f4;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section-work__title h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.section-work__line {
+  height: 3px;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.section-work__descr {
+  color: #444545;
+  font-size: 15px;
+  font-weight: 400;
+  width: 90%;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.section-work__descr p {
+  margin: 0;
+}
+
+.section-work__descr a {
+  text-decoration: none;
+  color: #444545;
+}
+
+.section-work__descr a:visited {
+  color: none;
+}
+
+.section-work-text-item {
+  width: 80%;
+  color: #444545;
+  padding-left: 100px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.section-work-text-item::before {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #2984f4;
+  position: absolute;
+  background-image: url("../img/cheak.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  top: 0;
+  left: 2%;
+}
+
+.section-work-text-item__title {
+  color: #2984f4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.section-work-text-item__subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #3f4040;
+  margin-bottom: 10px;
+}
+
+.section-work-text-item__subtitle span {
+  color: #9f9fa0;
+}
+
+.section-work-text-item__descr {
+  border-bottom: 4px dotted #b9b9ba;
+  padding-bottom: 10px;
 }

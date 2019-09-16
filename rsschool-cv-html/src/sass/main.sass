@@ -21,7 +21,7 @@ h1
     &__title
         font-size: 20px
         color:#585858
-        font-weight: 400
+        font-weight: 700
         text-transform: uppercase
         padding-top: 25px
         margin-bottom: 10px
@@ -39,3 +39,72 @@ h1
     background-color: #435153
 // end header   
        
+
+.section-work
+    &__title
+        font-size: 22px
+        color: $mainColor
+        font-weight: 700
+        text-transform: uppercase
+        margin-bottom: 10px
+        h2 
+            padding: 0
+            margin: 0
+    &__line
+        height: 3px
+        width: 90%
+        margin-bottom: 10px
+    &__descr
+        color: $subText
+        font-size: 15px
+        font-weight: 400
+        width: 90%
+        margin-left: 10px
+        margin-bottom: 25px
+        p
+            margin: 0
+        
+        a 
+            text-decoration: none
+            color: $subText
+        a:visited
+            color: none
+    &-text
+        &-item
+            width: 80%
+            color: $subText
+            padding-left: 100px
+            margin-bottom: 15px
+            position: relative
+            
+            &::before
+                content: ''
+                display: block
+                width: 70px
+                height: 70px
+                text-align: center
+                border-radius: 50%
+                background-color: $mainColor
+                position: absolute
+                background-image: url('../img/cheak.png')
+                background-size: 50%
+                background-repeat: no-repeat
+                background-position: 50% 50% 
+                top: 0
+                left: 2%
+            &__title
+                color: $mainColor
+                text-transform: uppercase
+                font-weight: 700
+                font-size: 16px
+                margin-bottom: 5px
+            &__subtitle
+                font-size: 14px
+                font-weight: 700
+                color: #3f4040
+                margin-bottom: 10px
+                span 
+                    color: #9f9fa0
+            &__descr
+                border-bottom: 4px dotted #b9b9ba
+                padding-bottom: 10px
