@@ -12,3 +12,43 @@ h1 {
   margin: 0;
   padding: 0;
 }
+
+.section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-left {
+  -ms-flex-preferred-size: 65%;
+  flex-basis: 65%;
+}
+
+.section-right {
+  -ms-flex-preferred-size: 35%;
+  flex-basis: 35%;
+}
+
+.header-name__title {
+  font-size: 20px;
+  color: #585858;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+
+.header-name__subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #2984f4;
+  margin-bottom: 15px;
+}
+
+.line {
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #435153;
+}
