@@ -22,7 +22,6 @@ My goal. She's the one. And I wrote it on the platform: https://smartprogress.do
       * GULP
       * SASS
       * LESS
-      * GIT
       * Bootstrap
       * Jquery
       * Photoshop, Figma, Avocode
