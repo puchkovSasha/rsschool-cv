@@ -304,3 +304,18 @@ h1 {
   margin: 0;
   padding: 0;
 }
+
+.section-right-english__title {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section-right-english__descr {
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
